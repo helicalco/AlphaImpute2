@@ -1,3 +1,6 @@
+
+Run `local_install.sh` to package and install a local copy of `AlphaImpute2` according to the details in `pyproject.toml`
+
 AlphaImpute2
 ============
 
