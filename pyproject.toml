@@ -1,0 +1,18 @@
+[project]
+name = "alphaimpute2"
+version = "0.0.4"
+authors = [
+  { name="Andrew Whalen", email="awhalen@roslin.ed.ac.uk" },
+]
+description = "An imputation software for massive livestock populations."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "numba==0.56.4","numpy==1.23.5"]
+build-backend = "setuptools.build_meta"
